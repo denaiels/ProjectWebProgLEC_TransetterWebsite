@@ -44,6 +44,7 @@ body{
 .btn-custom{
     background-color: yellow;
     color: black;
+    border-radius: 30px;
 }
 /* End Of Content */
 
