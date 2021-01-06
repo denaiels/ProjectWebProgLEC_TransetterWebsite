@@ -28,6 +28,23 @@ body{
 /* End of Navigation Bar */
 
 /* Content */
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 3px solid lightyellow;
+}
+.separator::before {
+    margin-right: 1.5em;
+}
+.separator::after {
+    margin-left: 1.5em;
+}
 .col-sm h1{
     font-size: 60px;
 }
